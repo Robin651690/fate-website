@@ -1,13 +1,13 @@
-/* 设置网页整体样式 */
 body {
     font-family: "宋体", SimSun, serif;
-    background: url('file:///E:/Fate/images/1.png') no-repeat center center fixed;
+    background: url('../images/1.png') no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     color: white;
     margin: 0;
     padding: 0;
 }
+
 /* 居中整体容器 */
 .container {
     background: rgba(0, 0, 0, 0.7);
