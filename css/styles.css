@@ -1,6 +1,6 @@
 body {
     font-family: "宋体", SimSun, serif;
-    background: url('../images/1.png') no-repeat center center fixed;
+    background: url('/fate-website/images/1.png') no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     color: white;
