@@ -1,0 +1,79 @@
+/* 设置网页整体样式 */
+body {
+    font-family: "宋体", SimSun, serif;
+    background: url('file:///E:/Fate/images/1.png') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+/* 居中整体容器 */
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 450px;
+    margin: 10vh auto;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 输入框和下拉框样式 */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-family: "宋体", SimSun, serif;
+}
+
+/* 按钮样式 */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #ff8c00, #ff4500);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "宋体", SimSun, serif;
+}
+
+/* 按钮悬停效果 */
+button:hover {
+    background: linear-gradient(to right, #ff4500, #ff8c00);
+    box-shadow: 0px 0px 10px rgba(255, 165, 0, 0.8);
+}
+
+/* 结果显示框 */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-family: "宋体", SimSun, serif;
+}
+
+/* 结果文本加粗 */
+#result p {
+    font-weight: bold;
+    color: white;
+}

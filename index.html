@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>生辰八字计算器</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/lunar.js"></script> <!-- 确保这个路径正确 -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>生辰八字计算器</h1>
+
+        <label for="birthDate">出生日期（阳历）：</label>
+        <input type="date" id="birthDate">
+
+        <label for="birthHour">出生时辰：</label>
+        <select id="birthHour">
+            <option value="23">子时 (23:00-00:59)</option>
+            <option value="1">丑时 (01:00-02:59)</option>
+            <option value="3">寅时 (03:00-04:59)</option>
+            <option value="5">卯时 (05:00-06:59)</option>
+            <option value="7">辰时 (07:00-08:59)</option>
+            <option value="9">巳时 (09:00-10:59)</option>
+            <option value="11">午时 (11:00-12:59)</option>
+            <option value="13">未时 (13:00-14:59)</option>
+            <option value="15">申时 (15:00-16:59)</option>
+            <option value="17">酉时 (17:00-18:59)</option>
+            <option value="19">戌时 (19:00-20:59)</option>
+            <option value="21">亥时 (21:00-22:59)</option>
+        </select>
+
+        <button id="calculateBtn">计算八字</button>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
